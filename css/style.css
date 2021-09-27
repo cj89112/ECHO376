@@ -11,3 +11,44 @@ body {
     width: auto;
     border-radius: 11%;
 }
+
+.navbar {
+    width: 100;
+    background-color: black;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: rgb(43, 99, 255);
+    text-decoration: none;
+    font-size: medium;
+    width: auto;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(147, 141, 163);
+    color: white;
+}
